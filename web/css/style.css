@@ -1,0 +1,73 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* main styling */
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7em;
+  color: #333;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+p {
+  padding-bottom: 20px;
+}
+
+/* utility styling */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+/* navbar */
+#navbar {
+  background-color: #333;
+  color: #f4f4f4;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #f4f4f4;
+}
+
+#navbar h1 {
+  float: left;
+  padding: 20px 0;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover {
+  background-color: #444;
+  color: #ff8833;
+}
